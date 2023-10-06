@@ -37,6 +37,19 @@
   .back-card p {
     top: 5.3;
   }
+
+  form label {
+    @apply block uppercase tracking-wider text-slate-800 mb-2 text-sm;
+  }
+
+  form input {
+    @apply border-2 border-slate-300 py-3 px-4 rounded outline-none w-full;
+  }
+
+  .btn {
+    background-color: hsl(278, 68%, 11%);
+    @apply py-3 px-6 rounded shadow text-white text-base tracking-wide lg:text-lg;
+  }
 }
 
 .back-card p {
