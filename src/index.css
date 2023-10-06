@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital@0;1&family=Kablammo&family=Playfair+Display:wght@600;700&family=Poppins:ital,wght@0,300;1,200;1,300&family=Space+Grotesk:wght@500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Space Grotesk", sans-serif;
+}
+.front-card {
+  background: url(./images/bg-card-front.png);
+  background-size: cover;
+  background-position: "center";
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 320px;
+  border-radius: 10px;
+}
+
+.back-card {
+  background: url(./images/bg-card-back.png);
+  background-size: cover;
+  background-position: "center";
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 320px;
+  border-radius: 10px;
+}
+
+@media (min-width: 1024px) {
+  .front-card,
+  .back-card {
+    height: 300px;
+    width: 500px;
+    border-radius: 20px;
+  }
+  .back-card p {
+    top: 5.3;
+  }
+}
+
+.back-card p {
+  top: 8.3rem;
+}
