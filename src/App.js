@@ -57,7 +57,7 @@ export default function App() {
                     type="text"
                     name="cardholder_name"
                     id="cardholder_name"
-                    placeholder="e.g. Jane Appleseed"
+                    placeholder="e.g. Abhishek Singh"
                     required
                     value={name}
                     onChange={(e) => setName(e.target.value)}
